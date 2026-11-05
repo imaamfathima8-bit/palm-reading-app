@@ -1,0 +1,27 @@
+# Secrets - never commit or submit these
+.env
+.env.*
+!.env.example
+*.env
+!example.env
+.streamlit/secrets.toml
+
+# Local Python environment and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated outputs (may contain personal palm photos)
+assets/*
+!assets/.gitkeep
+*.zip
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,33 @@
+# ------------------------------------------------------------------
+# AI-Powered Palm Reading & Intelligent Chatbot - dependencies
+# Tested target: Python 3.10 - 3.12 (MediaPipe has no wheels for 3.13+)
+# ------------------------------------------------------------------
+
+# --- User interface ---
+# Pinned: Streamlit 1.56+ switched to a new web server, and with the
+# protobuf version MediaPipe needs, images fail to load (they show as "0").
+streamlit==1.55.0
+
+# --- Computer vision / image processing ---
+# MediaPipe already depends on opencv-contrib-python, which is a superset of
+# opencv-python. Installing BOTH packages causes a broken cv2 import, so we
+# deliberately list only the contrib build.
+opencv-contrib-python==4.11.0.86
+mediapipe==0.10.14
+# MediaPipe 0.10.14 crashes with protobuf 5+ ('MessageFactory ... GetPrototype').
+# Pinning it here also makes pip pick a compatible Streamlit version.
+protobuf>=4.25.3,<5
+# MediaPipe 0.10.14 is built against the NumPy 1.x ABI.
+numpy>=1.24,<2.0
+scikit-image>=0.22,<0.25
+Pillow>=10.0
+
+# --- LLM providers (choose one via MODEL_PROVIDER in .env) ---
+# google-genai is Google's current SDK; the older google-generativeai
+# package is deprecated, so we use the supported replacement.
+google-genai>=1.0
+groq>=0.9
+openai>=1.30
+
+# --- Configuration ---
+python-dotenv>=1.0

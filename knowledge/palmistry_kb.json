@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "title": "Curated palmistry knowledge base",
+    "purpose": "Grounding corpus for Retrieval-Augmented Generation. The LLM may only interpret features using these entries.",
+    "status": "Traditional, cultural and entertainment content. Not scientific. Compiled and paraphrased from common Western (cheiromancy) palmistry traditions; wording is original to this project.",
+    "version": "1.0",
+    "tag_scheme": "line:<name>, <name>:<attribute>, shape:<shape>, element:<element>, mount:<name>, theme:<topic>, general, comparison, absent"
+  },
+  "entries": [
+    {
+      "id": "safety-disclaimer",
+      "category": "general",
+      "title": "Palmistry is not science",
+      "tags": ["general", "always"],
+      "text": "Palmistry (chiromancy) is a cultural and entertainment tradition. No scientific study has shown that palm lines predict personality, health, wealth, relationships, lifespan or future events. Readings should be presented as traditional symbolism only and never used for real decisions."
+    },
+    {
+      "id": "general-how-to-read",
+      "category": "general",
+      "title": "How traditions read a palm",
+      "tags": ["general", "always"],
+      "text": "Traditional readers look at the three major lines (heart, head, life), the optional fate line, the overall palm shape and the raised pads called mounts. Length, curvature, depth and where a line starts or ends are each said to add nuance. Readers usually stress the overall pattern rather than any single feature."
+    },
+    {
+      "id": "general-absent-line",
+      "category": "general",
+      "title": "When a line is missing or faint",
+      "tags": ["absent", "general"],
+      "text": "Tradition holds that faint or missing lines are common and are not considered bad omens. In a photo-based reading, a line that is not detected may simply be hidden by lighting, camera angle or skin texture, so no interpretation should be drawn from its apparent absence."
+    },
+    {
+      "id": "comparison-left-right",
+      "category": "comparison",
+      "title": "Left versus right palm",
+      "tags": ["comparison", "always"],
+      "text": "Many palmistry traditions treat the non-dominant hand as showing inborn tendencies or potential, and the dominant hand as showing how a person has developed and what they actively do with that potential. Other traditions assign fixed roles regardless of dominance. Differences between the two palms are traditionally described as change or growth over time."
+    },
+
+    {
+      "id": "heart-general",
+      "category": "line",
+      "title": "Heart line - overview",
+      "tags": ["line:heart", "theme:relationships"],
+      "text": "The heart line runs across the upper palm just below the fingers, usually from the little-finger edge towards the index or middle finger. Tradition associates it with emotional life: how a person expresses feelings, approaches affection and relates to others."
+    },
+    {
+      "id": "heart-long",
+      "category": "line-attribute",
+      "title": "Long heart line",
+      "tags": ["heart:long"],
+      "text": "A long heart line that stretches well across the palm is traditionally linked with emotional openness, warmth and a readiness to invest feelings in close relationships."
+    },
+    {
+      "id": "heart-medium",
+      "category": "line-attribute",
+      "title": "Medium-length heart line",
+      "tags": ["heart:medium"],
+      "text": "A heart line of moderate length is traditionally read as a balance between emotional expression and self-control - affectionate, but measured in how quickly feelings are shown."
+    },
+    {
+      "id": "heart-short",
+      "category": "line-attribute",
+      "title": "Short heart line",
+      "tags": ["heart:short"],
+      "text": "A short heart line is traditionally associated with a more private or practical emotional style, where feelings are shown through actions more than words."
+    },
+    {
+      "id": "heart-curved",
+      "category": "line-attribute",
+      "title": "Curved heart line",
+      "tags": ["heart:curved", "heart:slightly curved"],
+      "text": "A heart line that curves upward is traditionally read as expressive, demonstrative affection and openness in showing feelings."
+    },
+    {
+      "id": "heart-straight",
+      "category": "line-attribute",
+      "title": "Straight heart line",
+      "tags": ["heart:straight"],
+      "text": "A straighter heart line is traditionally associated with a calmer, more reflective approach to emotions and relationships."
+    },
+    {
+      "id": "heart-deep",
+      "category": "line-attribute",
+      "title": "Deep or clear heart line",
+      "tags": ["heart:deep"],
+      "text": "A clearly marked heart line is traditionally said to indicate strong, steady emotional energy."
+    },
+    {
+      "id": "heart-faint",
+      "category": "line-attribute",
+      "title": "Faint heart line",
+      "tags": ["heart:faint", "heart:moderate"],
+      "text": "A lighter heart line is traditionally read as sensitivity or a gentle emotional nature. In photos, faintness often reflects lighting rather than the palm itself."
+    },
+    {
+      "id": "heart-ends-jupiter",
+      "category": "line-attribute",
+      "title": "Heart line ending under the index finger",
+      "tags": ["heart:ends_jupiter"],
+      "text": "A heart line ending beneath the index finger (Mount of Jupiter) is traditionally linked with idealism in love and high standards for relationships."
+    },
+    {
+      "id": "heart-ends-saturn",
+      "category": "line-attribute",
+      "title": "Heart line ending under the middle finger",
+      "tags": ["heart:ends_saturn"],
+      "text": "A heart line ending beneath the middle finger (Mount of Saturn) is traditionally associated with a more self-directed or reserved emotional style."
+    },
+    {
+      "id": "heart-ends-between",
+      "category": "line-attribute",
+      "title": "Heart line ending towards the ring or little finger",
+      "tags": ["heart:ends_apollo", "heart:ends_mercury"],
+      "text": "A short heart line that ends towards the ring or little finger is traditionally read as a focus on a small circle of close bonds."
+    },
+
+    {
+      "id": "head-general",
+      "category": "line",
+      "title": "Head line - overview",
+      "tags": ["line:head", "theme:career"],
+      "text": "The head line runs across the middle of the palm, usually starting near the thumb-side edge. Tradition associates it with thinking style: how a person learns, plans, reasons and makes decisions. It is often consulted for career and study themes."
+    },
+    {
+      "id": "head-long",
+      "category": "line-attribute",
+      "title": "Long head line",
+      "tags": ["head:long"],
+      "text": "A long head line is traditionally linked with thorough, wide-ranging thinking and an enjoyment of considering many angles before deciding."
+    },
+    {
+      "id": "head-medium",
+      "category": "line-attribute",
+      "title": "Medium-length head line",
+      "tags": ["head:medium"],
+      "text": "A head line of moderate length is traditionally read as balanced, practical thinking - focused on the task at hand without overanalysing."
+    },
+    {
+      "id": "head-short",
+      "category": "line-attribute",
+      "title": "Short head line",
+      "tags": ["head:short"],
+      "text": "A short head line is traditionally associated with quick, direct decision-making and a preference for action over long deliberation."
+    },
+    {
+      "id": "head-straight",
+      "category": "line-attribute",
+      "title": "Straight head line",
+      "tags": ["head:horizontal"],
+      "text": "A head line running fairly straight across the palm, without sloping downward, is traditionally linked with logical, structured and realistic thinking."
+    },
+    {
+      "id": "head-curved",
+      "category": "line-attribute",
+      "title": "Curved or sloping head line",
+      "tags": ["head:curved", "head:slightly curved", "head:sloping"],
+      "text": "A head line that curves or slopes downward towards the outer lower palm (Mount of Luna) is traditionally associated with imagination, creativity and intuitive thinking."
+    },
+    {
+      "id": "head-deep",
+      "category": "line-attribute",
+      "title": "Deep or clear head line",
+      "tags": ["head:deep"],
+      "text": "A clearly marked head line is traditionally read as strong concentration and mental focus."
+    },
+    {
+      "id": "head-faint",
+      "category": "line-attribute",
+      "title": "Faint head line",
+      "tags": ["head:faint", "head:moderate"],
+      "text": "A lighter head line is traditionally associated with a flexible, adaptable mind that moves between interests."
+    },
+
+    {
+      "id": "life-general",
+      "category": "line",
+      "title": "Life line - overview",
+      "tags": ["line:life"],
+      "text": "The life line curves around the base of the thumb. Despite its name, palmistry traditions describe it as reflecting vitality, energy and the general character of life experiences. Mainstream palmistry itself states that the length of the life line does NOT indicate how long a person will live."
+    },
+    {
+      "id": "life-length-myth",
+      "category": "line-attribute",
+      "title": "Life line length is not lifespan",
+      "tags": ["line:life", "life:long", "life:medium", "life:short"],
+      "text": "A common misconception is that a short life line means a short life. Palmistry traditions reject this; length is instead read loosely as how much energy a person tends to direct outward. No reading should ever make claims about lifespan or health."
+    },
+    {
+      "id": "life-long",
+      "category": "line-attribute",
+      "title": "Long life line",
+      "tags": ["life:long"],
+      "text": "A long, sweeping life line is traditionally associated with enthusiasm, stamina and an active approach to daily life."
+    },
+    {
+      "id": "life-medium-short",
+      "category": "line-attribute",
+      "title": "Medium or short life line",
+      "tags": ["life:medium", "life:short"],
+      "text": "A shorter life line is traditionally read as independence and self-reliance, or energy spent in focused bursts. It carries no meaning about lifespan."
+    },
+    {
+      "id": "life-curved",
+      "category": "line-attribute",
+      "title": "Strongly curved life line",
+      "tags": ["life:curved", "life:wide_arc"],
+      "text": "A life line that sweeps in a wide arc into the palm is traditionally associated with warmth, sociability and enjoyment of new experiences."
+    },
+    {
+      "id": "life-straight",
+      "category": "line-attribute",
+      "title": "Straighter life line close to the thumb",
+      "tags": ["life:straight", "life:slightly curved", "life:close_thumb"],
+      "text": "A life line that runs close to the thumb is traditionally linked with a cautious, reserved style and a preference for familiar routines."
+    },
+    {
+      "id": "life-deep",
+      "category": "line-attribute",
+      "title": "Deep or clear life line",
+      "tags": ["life:deep"],
+      "text": "A clearly marked life line is traditionally said to reflect steady energy and resilience in everyday life."
+    },
+    {
+      "id": "life-faint",
+      "category": "line-attribute",
+      "title": "Faint life line",
+      "tags": ["life:faint", "life:moderate"],
+      "text": "A lighter life line is traditionally read as a preference for pacing oneself. It is not interpreted as weakness or ill health."
+    },
+
+    {
+      "id": "fate-general",
+      "category": "line",
+      "title": "Fate line - overview",
+      "tags": ["line:fate", "theme:career"],
+      "text": "The fate (or career) line runs vertically up the centre of the palm towards the middle finger. Tradition associates it with life direction, sense of purpose and career path. Many palms do not show a clear fate line."
+    },
+    {
+      "id": "fate-absent",
+      "category": "line-attribute",
+      "title": "No visible fate line",
+      "tags": ["fate:absent", "absent"],
+      "text": "A missing fate line is very common and is traditionally read as a free-spirited path that is shaped by personal choices rather than a single fixed direction. It is not considered unlucky."
+    },
+    {
+      "id": "fate-from-wrist",
+      "category": "line-attribute",
+      "title": "Fate line starting near the wrist",
+      "tags": ["fate:wrist"],
+      "text": "A fate line rising from near the wrist is traditionally linked with a sense of direction or responsibility from early in life."
+    },
+    {
+      "id": "fate-mid-palm",
+      "category": "line-attribute",
+      "title": "Fate line starting mid-palm",
+      "tags": ["fate:mid_palm"],
+      "text": "A fate line that begins in the middle of the palm is traditionally read as a career direction that becomes clearer later in life."
+    },
+    {
+      "id": "fate-deep",
+      "category": "line-attribute",
+      "title": "Deep or clear fate line",
+      "tags": ["fate:deep", "fate:long"],
+      "text": "A clear, unbroken fate line is traditionally associated with steady focus and persistence towards goals."
+    },
+    {
+      "id": "fate-faint",
+      "category": "line-attribute",
+      "title": "Faint or short fate line",
+      "tags": ["fate:faint", "fate:short", "fate:medium", "fate:moderate"],
+      "text": "A light or short fate line is traditionally read as flexibility, with a career path that may change direction several times."
+    },
+
+    {
+      "id": "shape-square",
+      "category": "shape",
+      "title": "Square palm",
+      "tags": ["shape:square"],
+      "text": "A palm roughly as wide as it is long is traditionally associated with practicality, reliability, and a hands-on, methodical approach."
+    },
+    {
+      "id": "shape-rectangular",
+      "category": "shape",
+      "title": "Rectangular palm",
+      "tags": ["shape:rectangular"],
+      "text": "A palm noticeably longer than it is wide is traditionally linked with sensitivity, imagination and a thoughtful or emotional nature."
+    },
+    {
+      "id": "shape-oval",
+      "category": "shape",
+      "title": "Oval or rounded palm",
+      "tags": ["shape:oval"],
+      "text": "A palm that is widest in the middle with rounded edges is traditionally associated with adaptability, charm and an artistic temperament."
+    },
+    {
+      "id": "shape-spatulate",
+      "category": "shape",
+      "title": "Spatulate palm",
+      "tags": ["shape:spatulate"],
+      "text": "A palm that fans out, wider near the fingers than at the wrist, is traditionally linked with energy, restlessness, originality and a love of activity."
+    },
+    {
+      "id": "element-earth",
+      "category": "shape",
+      "title": "Earth hand",
+      "tags": ["element:earth"],
+      "text": "In elemental palmistry, a square palm with shorter fingers is called an Earth hand and is traditionally associated with being grounded, dependable and practical."
+    },
+    {
+      "id": "element-air",
+      "category": "shape",
+      "title": "Air hand",
+      "tags": ["element:air"],
+      "text": "A square palm with longer fingers is called an Air hand and is traditionally associated with curiosity, communication and intellectual interests."
+    },
+    {
+      "id": "element-fire",
+      "category": "shape",
+      "title": "Fire hand",
+      "tags": ["element:fire"],
+      "text": "A longer palm with shorter fingers is called a Fire hand and is traditionally associated with enthusiasm, confidence and a drive to take action."
+    },
+    {
+      "id": "element-water",
+      "category": "shape",
+      "title": "Water hand",
+      "tags": ["element:water"],
+      "text": "A longer palm with longer fingers is called a Water hand and is traditionally associated with intuition, empathy and creativity."
+    },
+
+    {
+      "id": "mount-jupiter",
+      "category": "mount",
+      "title": "Mount of Jupiter (below the index finger)",
+      "tags": ["mount:jupiter", "theme:career"],
+      "text": "Traditionally linked with ambition, leadership and self-confidence. Lines or creases here are often read in connection with goals and aspirations."
+    },
+    {
+      "id": "mount-saturn",
+      "category": "mount",
+      "title": "Mount of Saturn (below the middle finger)",
+      "tags": ["mount:saturn", "theme:career"],
+      "text": "Traditionally linked with responsibility, discipline and a serious, reflective outlook."
+    },
+    {
+      "id": "mount-apollo",
+      "category": "mount",
+      "title": "Mount of Apollo (below the ring finger)",
+      "tags": ["mount:apollo"],
+      "text": "Traditionally linked with creativity, self-expression and appreciation of beauty and recognition."
+    },
+    {
+      "id": "mount-mercury",
+      "category": "mount",
+      "title": "Mount of Mercury (below the little finger)",
+      "tags": ["mount:mercury", "theme:finance", "theme:career"],
+      "text": "Traditionally linked with communication, wit and commercial or business sense."
+    },
+    {
+      "id": "mount-venus",
+      "category": "mount",
+      "title": "Mount of Venus (base of the thumb)",
+      "tags": ["mount:venus", "theme:relationships"],
+      "text": "Traditionally linked with warmth, affection, vitality and enjoyment of life's pleasures."
+    },
+    {
+      "id": "mount-luna",
+      "category": "mount",
+      "title": "Mount of Luna (outer lower palm)",
+      "tags": ["mount:luna"],
+      "text": "Traditionally linked with imagination, intuition and an interest in travel or the unknown."
+    },
+    {
+      "id": "mount-mars",
+      "category": "mount",
+      "title": "Plain of Mars (centre of the palm)",
+      "tags": ["mount:mars"],
+      "text": "Traditionally linked with courage, persistence and how a person handles challenges."
+    },
+
+    {
+      "id": "theme-career",
+      "category": "theme",
+      "title": "Career themes in palmistry",
+      "tags": ["theme:career", "always"],
+      "text": "Traditions mainly use the fate line, the head line and the mounts of Jupiter and Saturn when describing career themes: ambition, preferred working style and how directly a path is followed. These are symbolic themes only and are not career advice."
+    },
+    {
+      "id": "theme-finance",
+      "category": "theme",
+      "title": "Financial and prosperity themes in palmistry",
+      "tags": ["theme:finance", "always"],
+      "text": "Traditions sometimes link prosperity themes to the fate line, the Mount of Mercury (business sense) and the Mount of Jupiter (ambition). Palmistry cannot predict income or wealth; these are cultural symbols only and never financial advice."
+    },
+    {
+      "id": "theme-relationships",
+      "category": "theme",
+      "title": "Relationship and emotional themes in palmistry",
+      "tags": ["theme:relationships", "always"],
+      "text": "Traditions mainly use the heart line and the Mount of Venus for relationship themes: how affection is shown and what is valued in close bonds. Palmistry cannot predict who or when someone will marry or partner."
+    },
+    {
+      "id": "theme-personality",
+      "category": "theme",
+      "title": "Personality themes in palmistry",
+      "tags": ["theme:personality", "always"],
+      "text": "Personality themes are usually built from the palm shape (or element) combined with the head and heart lines. Readers describe tendencies, not fixed traits."
+    },
+    {
+      "id": "theme-future",
+      "category": "theme",
+      "title": "Future-oriented narratives",
+      "tags": ["theme:future", "always"],
+      "text": "Traditional readers often phrase readings as stories about the future, but these narratives are symbolic storytelling, not predictions. Lines are also said in tradition to change over a lifetime, which is why readings are never considered fixed."
+    }
+  ]
+}

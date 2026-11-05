@@ -1,0 +1,19 @@
+# Streamlit theme for the Palm Reader app.
+# Colours match the CSS in app.py; this file themes Streamlit's own widgets
+# (buttons, tabs, inputs) so they fit the design.
+
+[theme]
+base = "light"
+primaryColor = "#2C4C8C"
+backgroundColor = "#F3F5F7"
+secondaryBackgroundColor = "#E8ECF1"
+textColor = "#18202B"
+font = "sans serif"
+
+[client]
+# Hides Streamlit's "Deploy" button and developer menu items.
+toolbarMode = "minimal"
+
+[server]
+# Matches MAX_FILE_SIZE_MB in config.py, so the upload box shows the real limit.
+maxUploadSize = 15
